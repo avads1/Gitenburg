@@ -76,7 +76,7 @@ public class Gutenberg {
         fileWriter.write("\n");
         fileWriter.write("=========================\n");
         String quote = "Happiness in marriage is entirely a matter of chance.";
-        int chapterNum = util.getChapterOfQuote(quote);
+        int chapterNum = util.getChapterQuoteAppears(quote);
         fileWriter.write("Quote : " + quote+"\n");
         fileWriter.write("Chapter number : " + chapterNum+"\n");
 

@@ -174,7 +174,7 @@ public class Utils {
         return res;
     }
 
-    public int getChapterOfQuote(String quote) throws IOException {
+    public int getChapterQuoteAppears(String quote) throws IOException {
         int numOfChapters = getNumOfChapters();
         int[] res = new int[numOfChapters];
         for (int i = 0; i < numOfChapters; i++) {
